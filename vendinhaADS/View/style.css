@@ -1,0 +1,141 @@
+/* style.css */
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+body {
+  margin: 30px;
+  background-color:  rgb(105, 126, 223);
+}
+
+header {
+
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product h2 {
+  margin-top: 0;
+}
+
+.product p {
+  margin-bottom: 20px;
+}
+
+.product a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+footer {
+  background-color: #f10000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+#cadastro {
+  background-color: #f3f3f3;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Estilize a classe .pecas para exibir os itens lado a lado */
+.pecas {
+  display: inline-block; /* Exibe os elementos lado a lado */
+  padding: 10px;
+
+  border: solid #020155;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 20px; /* Adicione uma margem direita entre os elementos */
+  margin-bottom: 20px; /* Adicione uma margem inferior para espaçamento entre as linhas */
+}
+.small-card {
+  background-color: #ffffff;
+display:block;
+  max-width: 250px; /* Defina a largura máxima das divs */
+  margin: 0 auto 20px; /* Centralize as divs e adicione espaço inferior */
+}
+
+.small-img {
+ 
+  max-width: 50%;
+  height: 40px; /* Mantenha a proporção da imagem */
+}
+
+
+#principal {
+  background-color: #1a5080;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Permite a quebra de linha quando necessário */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+   /* CSS personalizado para Bootstrap hover */
+   .card:hover {
+    box-shadow: 0 14px 14px rgba(0,0,0,0.2);
+    transition: box-shadow 0.8s ease-in-out;
+}
+.containercd{
+  width: 30%;
+  height: 30%;
+display: inline;
+}
+#cadastro{
+  border: solid 2px black;
+  border-radius: 4px;
+  width: 50%;
+  height: 45%;
+  padding: 3px;
+}
+#btenviar{
+  align-items: center;
+  text-align: center;
+  background-color: rgb(105, 126, 223) !important;
+  color: #000000;
+  border-radius: 4px;
+  padding: 2%;
+  margin-bottom: 10%;
+
+}
